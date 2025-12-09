@@ -1,4 +1,56 @@
-[
-{"id":"backend_junior","title":"Junior Backend Developer","description":"Build and maintain APIs"},
-{"id":"data_analyst","title":"Data Analyst","description":"Analyze data to drive decisions"}
-]
+{
+  "Data Scientist": {
+    "required_skills": ["Python", "Machine Learning", "Statistics", "SQL", "Data Visualization"],
+    "avg_salary": 120000,
+    "demand_trend": "Very High",
+    "growth_rate": 35,
+    "remote_friendly": true,
+    "experience_needed": "2-5 years",
+    "industries": ["Tech", "Finance", "Healthcare"],
+    "hackathon_note": "🔥 Hottest role in 2023!"
+  },
+  
+  "Full Stack Developer": {
+    "required_skills": ["JavaScript", "React", "Node.js", "HTML/CSS", "Git", "REST APIs"],
+    "avg_salary": 110000,
+    "demand_trend": "High",
+    "growth_rate": 28,
+    "remote_friendly": true,
+    "experience_needed": "1-3 years",
+    "industries": ["Tech", "E-commerce", "Startups"],
+    "hackathon_note": "⚡ Great for remote work!"
+  },
+  
+  "AI Engineer": {
+    "required_skills": ["Python", "Deep Learning", "TensorFlow/PyTorch", "Cloud", "MLOps"],
+    "avg_salary": 130000,
+    "demand_trend": "Exploding",
+    "growth_rate": 42,
+    "remote_friendly": true,
+    "experience_needed": "3-6 years",
+    "industries": ["AI Research", "Tech", "Automotive"],
+    "hackathon_note": "🚀 Future-proof career!"
+  },
+  
+  "DevOps Engineer": {
+    "required_skills": ["AWS/Azure", "Docker", "Kubernetes", "CI/CD", "Linux", "Scripting"],
+    "avg_salary": 115000,
+    "demand_trend": "High",
+    "growth_rate": 32,
+    "remote_friendly": true,
+    "experience_needed": "2-4 years",
+    "industries": ["Tech", "Finance", "Cloud"],
+    "hackathon_note": "☁️ Cloud is the future!"
+  },
+  
+  "Product Manager": {
+    "required_skills": ["Product Strategy", "User Research", "Agile/Scrum", "Analytics", "Communication"],
+    "avg_salary": 125000,
+    "demand_trend": "Stable",
+    "growth_rate": 25,
+    "remote_friendly": true,
+    "experience_needed": "3-5 years",
+    "industries": ["Tech", "SaaS", "E-commerce"],
+    "hackathon_note": "🎯 Leadership + tech combo!"
+  }
+}

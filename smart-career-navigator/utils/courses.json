@@ -1,5 +1,97 @@
 [
-{"title":"REST API Design","provider":"OpenCourse"},
-{"title":"Docker Basics","provider":"ContainerCamp"},
-{"title":"Unit Testing for Engineers","provider":"TestAcademy"}
+  {
+    "title": "Python for Everybody",
+    "provider": "Coursera",
+    "duration": "2 months",
+    "difficulty": "Beginner",
+    "skills_covered": ["Python", "Programming Basics"],
+    "rating": 4.8,
+    "url": "https://coursera.org/python",
+    "cost": "Free",
+    "hackathon_recommended": true
+  },
+  
+  {
+    "title": "Machine Learning Specialization",
+    "provider": "DeepLearning.AI",
+    "duration": "3 months",
+    "difficulty": "Intermediate",
+    "skills_covered": ["Machine Learning", "Python", "AI"],
+    "rating": 4.9,
+    "url": "https://coursera.org/ml",
+    "cost": "$49/month",
+    "hackathon_recommended": true
+  },
+  
+  {
+    "title": "React - The Complete Guide",
+    "provider": "Udemy",
+    "duration": "2.5 months",
+    "difficulty": "Intermediate",
+    "skills_covered": ["React", "JavaScript", "Frontend"],
+    "rating": 4.7,
+    "url": "https://udemy.com/react",
+    "cost": "$94.99",
+    "hackathon_recommended": true
+  },
+  
+  {
+    "title": "AWS Certified Solutions Architect",
+    "provider": "A Cloud Guru",
+    "duration": "3 months",
+    "difficulty": "Intermediate",
+    "skills_covered": ["AWS", "Cloud", "Architecture"],
+    "rating": 4.6,
+    "url": "https://acloud.guru",
+    "cost": "$35/month",
+    "hackathon_recommended": true
+  },
+  
+  {
+    "title": "Data Science Bootcamp",
+    "provider": "Springboard",
+    "duration": "6 months",
+    "difficulty": "Advanced",
+    "skills_covered": ["Python", "ML", "Statistics", "SQL"],
+    "rating": 4.8,
+    "url": "https://springboard.com",
+    "cost": "$8,900",
+    "hackathon_recommended": false
+  },
+  
+  {
+    "title": "Docker & Kubernetes: The Practical Guide",
+    "provider": "Udemy",
+    "duration": "1.5 months",
+    "difficulty": "Intermediate",
+    "skills_covered": ["Docker", "Kubernetes", "DevOps"],
+    "rating": 4.7,
+    "url": "https://udemy.com/docker",
+    "cost": "$84.99",
+    "hackathon_recommended": true
+  },
+  
+  {
+    "title": "The Web Developer Bootcamp 2023",
+    "provider": "Udemy",
+    "duration": "4 months",
+    "difficulty": "Beginner",
+    "skills_covered": ["HTML", "CSS", "JavaScript", "Node.js"],
+    "rating": 4.7,
+    "url": "https://udemy.com/webdev",
+    "cost": "$84.99",
+    "hackathon_recommended": true
+  },
+  
+  {
+    "title": "Deep Learning Specialization",
+    "provider": "DeepLearning.AI",
+    "duration": "4 months",
+    "difficulty": "Advanced",
+    "skills_covered": ["Deep Learning", "TensorFlow", "Neural Networks"],
+    "rating": 4.9,
+    "url": "https://coursera.org/deeplearning",
+    "cost": "$49/month",
+    "hackathon_recommended": true
+  }
 ]

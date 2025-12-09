@@ -1,8 +1,81 @@
-[
-"Python",
-"REST APIs",
-"Docker",
-"SQL",
-"Testing",
-"JavaScript"
-]
+{
+  "Python": {
+    "category": "Programming",
+    "difficulty": "Intermediate",
+    "demand": "Very High",
+    "related_roles": ["Data Scientist", "Backend Developer", "AI Engineer", "DevOps"],
+    "learning_time": "2-3 months",
+    "resources": ["Python.org", "Coursera", "Real Python"],
+    "hackathon_tip": "Start here for AI/ML careers!"
+  },
+  
+  "JavaScript": {
+    "category": "Programming",
+    "difficulty": "Intermediate",
+    "demand": "High",
+    "related_roles": ["Frontend Developer", "Full Stack Developer", "Mobile Developer"],
+    "learning_time": "3-4 months",
+    "resources": ["MDN Web Docs", "FreeCodeCamp", "JavaScript.info"],
+    "hackathon_tip": "Essential for web development!"
+  },
+  
+  "React": {
+    "category": "Frontend Framework",
+    "difficulty": "Intermediate",
+    "demand": "Very High",
+    "related_roles": ["Frontend Developer", "Full Stack Developer", "UI Developer"],
+    "learning_time": "2-3 months",
+    "resources": ["React Docs", "Next.js", "Frontend Masters"],
+    "hackathon_tip": "Most popular frontend framework!"
+  },
+  
+  "Machine Learning": {
+    "category": "AI/ML",
+    "difficulty": "Advanced",
+    "demand": "Very High",
+    "related_roles": ["Data Scientist", "AI Engineer", "ML Engineer"],
+    "learning_time": "4-6 months",
+    "resources": ["Coursera ML", "Fast.ai", "Kaggle"],
+    "hackathon_tip": "Future-proof skill with high salary!"
+  },
+  
+  "AWS": {
+    "category": "Cloud",
+    "difficulty": "Intermediate",
+    "demand": "Very High",
+    "related_roles": ["DevOps Engineer", "Cloud Architect", "Backend Developer"],
+    "learning_time": "3-4 months",
+    "resources": ["AWS Training", "A Cloud Guru", "AWS Docs"],
+    "hackathon_tip": "Cloud skills = job security!"
+  },
+  
+  "Docker": {
+    "category": "DevOps",
+    "difficulty": "Intermediate",
+    "demand": "High",
+    "related_roles": ["DevOps Engineer", "Backend Developer", "Platform Engineer"],
+    "learning_time": "1-2 months",
+    "resources": ["Docker Docs", "Docker Mastery", "Play with Docker"],
+    "hackathon_tip": "Modern deployment essential!"
+  },
+  
+  "SQL": {
+    "category": "Database",
+    "difficulty": "Beginner",
+    "demand": "High",
+    "related_roles": ["Data Analyst", "Backend Developer", "Data Scientist"],
+    "learning_time": "1-2 months",
+    "resources": ["SQLZoo", "Mode Analytics", "LeetCode"],
+    "hackathon_tip": "Required for data roles!"
+  },
+  
+  "Git": {
+    "category": "Tools",
+    "difficulty": "Beginner",
+    "demand": "High",
+    "related_roles": ["All Developer Roles"],
+    "learning_time": "1 month",
+    "resources": ["Git Docs", "GitHub Learning Lab", "Atlassian Git Tutorial"],
+    "hackathon_tip": "First skill to learn for developers!"
+  }
+}

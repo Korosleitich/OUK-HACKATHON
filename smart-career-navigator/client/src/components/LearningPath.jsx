@@ -1,17 +1,17 @@
 import React from 'react'
 
 
-export default function LearningPath({ plan }){
-const steps = plan || [
-{step:'Polish JS fundamentals', due:'1 week'},
-{step:'REST & HTTP deep dive', due:'2 weeks'},
-{step:'Dockerize a small app', due:'3 weeks'}
+export default function LearningPath(){
+const steps = [
+{id:1, title:'Foundations: Python', due:'2 weeks'},
+{id:2, title:'Data Structures & SQL', due:'3 weeks'},
+{id:3, title:'ML Basics', due:'4 weeks'}
 ]
 return (
-<div className="card learning-path">
-<h4>Learning path</h4>
+<div className="card">
+<h3>Learning Path</h3>
 <ol>
-{steps.map((s,i)=> <li key={i}>{s.step} <em className="muted">({s.due})</em></li>)}
+{steps.map(s=> <li key={s.id}><strong>{s.title}</strong> — {s.due}</li>)}
 </ol>
 </div>
 )
