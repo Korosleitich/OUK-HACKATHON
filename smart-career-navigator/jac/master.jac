@@ -1,10 +1,8 @@
-module {
-    name = "master"
-}
+import from byllm.llm { Model }
 
-import * with "std.jac"
+glob llm = Model(model_name="gemini/gemini-2.5-flash", verbose=False);
 
-### Node Types ###
+
 node User:
     has name: str;
     has email: str;
@@ -22,7 +20,6 @@ node Course:
     has title: str;
     has topics: list;
 
-### Edge Types ###
 edge HasSkill(User -> Skill);
 edge RequiresSkill(Role -> Skill);
 edge Learned(User -> Course);
@@ -59,7 +56,7 @@ agent JobSignalAnalyzer:
             {"role": "ML Engineer", "trend": "stable"}
         ];
 
-### Walkers ###
+
 walker init_project:
     can api.get;
     
